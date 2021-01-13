@@ -14420,6 +14420,11 @@
       "FilePath": "c:\\Users\\Felipe\\OneDrive\\Área de Trabalho\\E-Players_Application\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Felipe\\OneDrive\\Área de Trabalho\\E-Players_Application\\Views\\TeamView\\Index.cshtml",
+      "TargetPath": "Views\\TeamView\\Index.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"

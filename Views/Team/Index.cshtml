@@ -1,0 +1,55 @@
+@model Team
+
+@{
+
+    ViewData["Title"] = "Teams";
+
+}
+
+<form method="POST" action='@Url.Action("Register")'>
+
+    <label> ID </label>
+    <input type="text" name="IdTeam" />
+
+    <label> Name </label>
+    <input type="text" name="Name" />
+
+    <label> Image </label>
+    <input type="text" name="Image" />
+
+    <button type="submit"> Register </button>
+
+</form>
+
+
+<table class="table table-striped table-responsive">
+
+    <thead>
+
+    <th> ID </th>
+    <th> Name </th>
+    <th> Photo </th>
+    
+    </thead>
+
+    
+    <tbody>
+
+        @foreach (Team team in ViewBag.teamsList)
+        {
+
+            <tr>
+
+            <td> @team.IdTeam </td>
+            <td> @team.Name </td>
+            <td> @team.Image </td>
+
+            </tr>
+
+        }
+
+
+    </tbody>
+
+
+</table>
